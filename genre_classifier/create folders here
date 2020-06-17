@@ -1,0 +1,6 @@
+create folders here
+
+one for each genre
+
+the genre_classifier is made to work with webm files (sample rate 48khz)
+you can use anything but you'll have to change stuff in the code! :)
