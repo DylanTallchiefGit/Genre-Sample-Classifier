@@ -218,7 +218,8 @@ model.compile(optimizer='adam',
               loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
               metrics=['accuracy'])
 
-
+# weight_path = '../savedweights_1/chkp-0.9171686768531799.ckpt'   
+# model.load_weights(weight_path)  #load them and comments out model.fit if u just want to use pre-existing weights
 
 # train
 history = model.fit(training_ds.batch(batch_size), 	
