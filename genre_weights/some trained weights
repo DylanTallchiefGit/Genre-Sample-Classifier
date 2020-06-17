@@ -1,0 +1,4 @@
+some trained weights
+
+you only need to the direct to a ".ckpt" file
+tensorflow will figure out the rest
